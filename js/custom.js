@@ -312,6 +312,7 @@
 				 directionNav: true ,
 				 slideshowSpeed: 8000
 			});
+			setTimeout(function(){ $('#mask').fadeOut(2500); }, 2000);
 		});
 
 		 
@@ -353,5 +354,3 @@
 			$('#back-to-top').tooltip('hide');
 
 });
-
-
