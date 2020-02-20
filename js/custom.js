@@ -312,7 +312,7 @@
 				 directionNav: true ,
 				 slideshowSpeed: 8000
 			});
-			setTimeout(function(){ $('#mask').fadeOut(2500); }, 2000);
+			setTimeout(function(){ $('#mask').fadeOut(500); }, 2000);
 		});
 
 		 
