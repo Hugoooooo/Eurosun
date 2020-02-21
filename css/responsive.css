@@ -6,6 +6,7 @@
 
 	/* Dropdown animation */
 	.navbar-nav .dropdown-menu,
+	/* .navbar-nav .dropdown-sub-menu, */
 	.navbar-nav .dropdown.megamenu div.dropdown-menu{
 		background: none;
 		border: 0;
@@ -26,7 +27,8 @@
 		transition: visibility 500ms, opacity 500ms, transform 500ms cubic-bezier(.43, .26, .11, .99);
 	}
 
-	.navbar-nav .dropdown:hover div.dropdown-menu,
+	.navbar-nav .dropdown:hover div.dropdown-menu:not(.subitem),
+	.navbar-nav .dropdown-submenu:hover div.dropdown-menu,
 	.navbar-nav .dropdown.megamenu:hover div.dropdown-menu{
 		opacity: 1;
 		visibility:visible;
@@ -76,6 +78,7 @@
 
 	/* Dropdown animation */
 	.navbar-nav .dropdown-menu,
+	/* .navbar-nav .dropdown-sub-menu, */
 	.navbar-nav .dropdown.megamenu div.dropdown-menu{
 		background: none;
 		border: 0;
@@ -96,7 +99,8 @@
 		transition: visibility 500ms, opacity 500ms, transform 500ms cubic-bezier(.43, .26, .11, .99);
 	}
 
-	.navbar-nav .dropdown:hover div.dropdown-menu,
+	.navbar-nav .dropdown:hover div.dropdown-menu:not(.subitem),
+	.navbar-nav .dropdown-submenu:hover div.dropdown-menu,
 	.navbar-nav .dropdown.megamenu:hover div.dropdown-menu{
 		opacity: 1;
 		visibility:visible;
