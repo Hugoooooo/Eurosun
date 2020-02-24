@@ -87,6 +87,12 @@ html,body{
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
 }
+
+.nav .open.dropdown-submenu>a, .nav .open.dropdown-submenu>a:hover, .nav .open.dropdown-submenu>a:focus {
+    background: transparent;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
 @media (max-width : 767px){
 	.dropdown-submenu:not(.open)>.dropdown-menu {
 		display: none;
