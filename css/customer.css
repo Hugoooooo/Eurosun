@@ -302,7 +302,7 @@ h5{
 
 }
 
-/*-- Animation */
+/*-- Carousel Text Box */
 .carousel-box {
 	margin-left: 10%;
 }
@@ -350,6 +350,7 @@ h5{
 	line-height: 2;
 }
 
+/*-- Animation */
 @media (max-width: 1200px ) {
 	.caption .super{
 		font-size: 12rem;	
@@ -373,7 +374,10 @@ h5{
 	.slider-content .caption .sub{
 		font-size: 0.7rem;	
 	}
-	
+	.caption{
+		padding-bottom: 10px;
+	}
+
 	.caption-sub{
 		font-size: 0.7rem;	
 	}
