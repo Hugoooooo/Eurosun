@@ -2,6 +2,11 @@ html,body{
 	font-family: 微軟正黑體, arial !important;
 
 }
+
+.d-inline{
+	display: inline-block;
+}
+
 .white{
     color: white;
 }
@@ -36,7 +41,6 @@ html,body{
     z-index: 9999999;
     opacity: 1;
 }
-
 
 /* ================================================== */
 /* Menu 子層項目 */
@@ -297,3 +301,134 @@ h5{
 	}
 
 }
+
+/*-- Animation */
+.carousel-box {
+	margin-left: 10%;
+}
+
+.caption{
+	border-bottom: 1px solid;
+	padding-bottom: 20px;
+	opacity: 0;
+}
+
+.caption-sub{
+	opacity: 0;
+    padding-top: 20px;
+}
+
+.carousel .item.active .caption.load-ok{
+  -webkit-animation: fade-down 0.6s ease;
+          animation: fade-down 0.6s ease;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.carousel .item.active .caption-sub.load-ok{
+  -webkit-animation: fade-down-2 0.6s ease;
+		  animation: fade-down-2 0.6s ease;
+		  animation-delay: 0.6s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  }
+
+.caption .super{
+    font-size: 18rem;	
+}
+
+.slider-content .caption .sub{
+    font-size: 1.8rem;	
+}
+
+.caption-sub{
+    font-size: 1.8rem;	
+}
+
+.caption-sub span{
+	margin-bottom: 5px;
+	line-height: 2;
+}
+
+@media (max-width: 1200px ) {
+	.caption .super{
+		font-size: 12rem;	
+	}
+	
+	.slider-content .caption .sub{
+		font-size: 1.5rem;	
+	}
+	
+	.caption-sub{
+		font-size: 1.5rem;	
+	}
+}
+
+
+@media (max-width : 768px){
+	.caption .super{
+		font-size: 5rem;	
+	}
+	
+	.slider-content .caption .sub{
+		font-size: 0.7rem;	
+	}
+	
+	.caption-sub{
+		font-size: 0.7rem;	
+	}
+}
+
+
+@-webkit-keyframes fade-down {
+	0% {
+	  -webkit-transform: translateY(-20%);
+			  transform: translateY(-20%);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  
+@keyframes fade-down {
+	0% {
+		-webkit-transform: translateY(-20%);
+				transform: translateY(-20%);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+				transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes fade-down-2 {
+	0% {
+	  -webkit-transform: translateY(-15%);
+			  transform: translateY(-15%);
+	  opacity: 0;
+	}
+	100% {
+	  -webkit-transform: translateY(0);
+			  transform: translateY(0);
+	  opacity: 1;
+	}
+  }
+  
+@keyframes fade-down-2 {
+	0% {
+		-webkit-transform: translateY(-15%);
+				transform: translateY(-15%);
+		opacity: 0;
+	}
+	100% {
+		-webkit-transform: translateY(0);
+				transform: translateY(0);
+		opacity: 1;
+	}
+}
+  

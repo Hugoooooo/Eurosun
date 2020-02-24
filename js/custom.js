@@ -316,6 +316,7 @@ jQuery(function ($) {
 			slideshowSpeed: 8000
 		});
 		setTimeout(function () { $('#mask').fadeOut(500); }, 1000);
+		setTimeout(function () { $('.load-wait').addClass('load-ok') }, 1500);
 	});
 
 

@@ -1128,10 +1128,6 @@ ul.navbar-nav > li > a i{
 }
 
 /*-- Animation */
-.carousel .item.active .animated1 {
-	
-}
-
 .carousel .item.active .animated2,
  .flex-active-slide .animated2{
 	-webkit-animation: lightSpeedIn 1s ease-in 200ms both;
