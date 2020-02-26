@@ -358,3 +358,8 @@ jQuery(function ($) {
 	$('#back-to-top').tooltip('hide');
 
 });
+
+function sendEmail() 
+{
+	window.location = "mailto:eurosun.lee@msa.hinet.net";
+}

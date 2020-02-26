@@ -183,6 +183,13 @@ h5{
 
 .guide-box-image {
 	width: 30%;
+	transition-duration: 0.5s;
+
+}
+
+.guide-box-image:hover {
+	width: 35%;
+
 }
 
 @media (min-width: 1200px ) {
