@@ -16,6 +16,9 @@ html,body{
 .cus-color-2{
 	color: #01559b;
 }
+.bgcolor-1{
+	background-color: #dedede;
+}
 
 .item-center{
 	margin: auto;
@@ -298,6 +301,18 @@ h5{
 .product-table thead th{
 	background: #04367d;
     color: #fff;
+}
+
+.product-table-2 table{
+	border: 1px solid #e5e5e5;
+}
+.product-table-2 thead th{
+	background: #04367d;
+    color: #fff;
+}
+.product-table-2 tbody td{
+	border: 1px solid #eee;
+	vertical-align:middle !important;
 }
 
 @media (max-width : 767px){
