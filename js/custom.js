@@ -361,5 +361,5 @@ jQuery(function ($) {
 
 function sendEmail() 
 {
-	window.location = "mailto:eurosun.lee@msa.hinet.net";
+	window.location = "mailto:blake.lee@eurosun1985.com";
 }
